@@ -1,0 +1,8 @@
+* Details
+Adding localusers to the printer admin group lets them add printers without using administrative rights.
+This adds every user on the system to the "lpadmin" group.
+
+* Usage
+#+begin_src shell
+./script.sh
+#+end_src
